@@ -1,0 +1,41 @@
+.video {
+    background: rgba(0, 0, 0, 0.65);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+  
+    margin-top: 40px;
+    width: 265px;
+    height: 275px;
+    margin: 10px;
+  }
+  .video_thumbnail {
+    height: 150px;
+    width: 250px;
+    margin: 8px;
+    border-radius: 10px;
+  }
+  .video_info {
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+  }
+  .video__text {
+    margin-left: 15px;
+    color: #18ea00;
+  }
+  .video__text > h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .video__text > p {
+    font-size: 12px;
+    color: whitesmoke;
+  }
+  
+  .video_avatar {
+    margin-left: 10px;
+    height: 30px !important;
+    width: 30px !important;
+  }
