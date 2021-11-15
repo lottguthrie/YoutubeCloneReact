@@ -6,7 +6,7 @@ export const Search = props => {
         <div>
             <div className="search">
                 <input type="text" onChange={event => setChannelId(event.target.value)} placeholder="Search Youtube" />
-                <button disabled={!channelId.length} onClick={() => props.setCurrentChannelId(channelId)}>Get videos</button>
+                <button disabled={!channelId.length} onClick={() => props.setCurrentChannelId(channelId)}>Search</button>
             </div>
         </div>
     );
